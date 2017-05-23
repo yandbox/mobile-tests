@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+
+<pre><tt>|  &amp;  ;  &lt;  &gt;  (  )  $  `  \  "  '  &lt;space&gt;  &lt;tab&gt;  &lt;newline&gt;
+</tt>
+</pre>
+
+<pre id="pre"></pre>
+
+<script>
+  (function () {
+    var obj = {
+      screen: {
+        width: screen.width
+      },
+      window: {
+        innerWidth: window.innerWidth
+      },
+      root: {
+        clientWidth: document.documentElement.clientWidth
+      }
+    }
+
+    document.getElementById('pre').textContent = JSON.stringify(obj, null, 2)
+  })()
+</script>
+
+</body>
+</html>

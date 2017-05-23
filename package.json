@@ -1,0 +1,11 @@
+{
+  "name": "mobile-tests",
+  "version": "1.0.0",
+  "description": "some tests about mobile",
+  "author": "Ivan Yan",
+  "license": "MIT",
+  "private": true,
+  "repository": "yanxyz/mobile-tests",
+  "dependencies": {
+  }
+}
